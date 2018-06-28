@@ -33,7 +33,7 @@ end
 
 def words_with_b(words)
 words.select do |word|
-  word.any?("b")
+  word.startsWith("b")
 end
 end
 
