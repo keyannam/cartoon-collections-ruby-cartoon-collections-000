@@ -32,5 +32,11 @@ cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
 def words_with_b(words)
-
+words.select do |word|
+  word.any?("b")
 end
+end
+
+puts "Words With B:"
+puts words_with_b(["alice", "bob", "charlie"]) # ["bob"]
+puts words_with_b(["billy", "bob", "thornton"]) # ["billy", "bob"]
