@@ -54,7 +54,7 @@ describe "Cartoon Collections" do
   describe "#find_the_cheese" do
     it "returns the first element of the array that is cheese" do
       #cheddar_cheese = ["banana", "cheddar", "sock"]
-      gouda_cheese = ["banana", "gouda", "cheddar", "sock"]
+      #gouda_cheese = ["banana", "gouda", "cheddar", "sock"]
       expect(find_the_cheese(gouda_cheese)).to eq 'cheddar'
     end
 
