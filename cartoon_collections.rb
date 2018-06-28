@@ -38,4 +38,4 @@ words.select do |word|
 end
 end
 
-puts roll_call_dwarves(dwarves)
+roll_call_dwarves(dwarves)
