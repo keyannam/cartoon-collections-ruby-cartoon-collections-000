@@ -31,4 +31,6 @@ cheese_types = ["cheddar", "gouda", "camembert"]
   end
 end
 
-def words_with_b
+def words_with_b(words)
+
+end
