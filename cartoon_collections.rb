@@ -30,3 +30,5 @@ cheese_types = ["cheddar", "gouda", "camembert"]
     cheese_types.include?(food_item)
   end
 end
+
+def words_with_b
