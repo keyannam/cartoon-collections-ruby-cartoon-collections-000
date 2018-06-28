@@ -1,4 +1,4 @@
-dwarves = ["Doc", "Dopey", "Grumpy", "Bashful"]
+dwarves = ["Doc", "Dopey", "Grumpy", "Bashful", "Sleepy", "Sneezy"]
 
 def roll_call_dwarves(dwarves)
   new_dwarves = dwarves[0..1]
