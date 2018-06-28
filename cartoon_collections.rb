@@ -38,9 +38,4 @@ words.select do |word|
 end
 end
 
-puts "Words With B:"
-puts words_with_b(["alice", "bob", "charlie"]) # ["bob"]
-puts words_with_b(["billy", "bob", "thornton"]) # ["billy", "bob"]
-
-arr = [1,2,3,4,5]
-puts arr[0..1]
+puts roll_call_dwarves(dwarves)
