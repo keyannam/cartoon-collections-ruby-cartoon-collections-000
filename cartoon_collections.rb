@@ -1,9 +1,9 @@
 dwarves = ["Doc", "Dopey", "Grumpy", "Bashful"]
 
 def roll_call_dwarves(dwarves)
-  new_dwarves = dwarves
+  new_dwarves = dwarves[0..1]
   new_dwarves.each_with_index do |name, index|
-  puts "#{index} #{name}"
+  puts "#{index+1} #{name}"
   end
 end
 
@@ -43,4 +43,4 @@ puts words_with_b(["alice", "bob", "charlie"]) # ["bob"]
 puts words_with_b(["billy", "bob", "thornton"]) # ["billy", "bob"]
 
 arr = [1,2,3,4,5]
-puts arr[0..3]
+puts arr[0..1]
